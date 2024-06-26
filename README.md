@@ -14,4 +14,3 @@ __MAJOR.MINOR.PATCH__, eg:- `1.0.1`
 - __PATCH__ version when you make backward compatible bug fixes
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
-
