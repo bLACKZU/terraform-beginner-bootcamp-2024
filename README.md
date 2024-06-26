@@ -1,7 +1,7 @@
 # Terraform Beginner Bootcamp 2023
 
 
-## Semantic Versioning - A cool way to track projects
+## Semantic Versioning - :smile:
 
 This project utilises *Semantic Versioning* for its tagging. [semver.org](https://semver.org/)
 
