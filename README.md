@@ -42,6 +42,10 @@ This helps to create a change set of your desired configuration that is going to
 
 The change sets needs to be applied after you are done with your `terraform plan`. `terraform apply` helps to incorporate the change sets to the actual state from the desired state
 
+### Terraform Destroy
+
+This is used to destroy the resources from your infrastructure
+
 ### Terraform State file
 
 Single source of truth of a terraform project that keeps track of the actual configuration of your infrastructure
