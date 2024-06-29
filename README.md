@@ -64,3 +64,19 @@ This keeps track of the versions of your providers as well as the terraform
 
 This **should be pushed** to your VCS because it helps to keep the versioning of the terraform project in place.
 
+### Terraform Cloud
+
+We store terraform state file in a remote backend i.e. Terraform Cloud. Terraform Cloud needs to be configured using `terraform login`. This needs to be done before running `terraform init`
+
+The credentials get stored in a file `credentials.tfrc.json` inside `terraform.d` folder
+
+The format of the json file is :-
+```sh
+{
+    "credentials": {
+      "app.terraform.io": {
+        "token": "xxxxxx"
+      }
+    }
+  }
+```

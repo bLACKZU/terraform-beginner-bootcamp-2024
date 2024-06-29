@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "blackzu-den"
+
+    workspaces {
+      name = "terra-house"
+    }
+  }
   required_providers {
     random = {
       source = "hashicorp/random"
@@ -7,6 +14,7 @@ terraform {
     aws = {
       source = "hashicorp/aws"
       version = "5.56.1"
+      
     }
   }
 }
@@ -14,6 +22,11 @@ terraform {
 # provider "random" {
   
 # }
+provider "aws" {
+  region     = "us-east-1"
+  
+}
+
 
 resource "random_string" "random" {
   length           = 6
